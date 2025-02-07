@@ -1,0 +1,132 @@
+html {
+    background: #bdb9af;
+  }
+  
+  body {
+    font-family: 'Courier Prime', monospace;
+  }
+  
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: not-allowed;
+    margin: 3px;
+  }
+  
+  .circle.yellow {
+    background-color: #f7b443;
+  }
+  
+  .circle.green {
+    background-color: #4cbb49;
+  }
+  
+  .circle.red {
+    background-color: #f16052;
+  }
+  
+  .window {
+    height: 300px;
+    width: 325px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 83% 7%;
+    background-color: #1b1c1b;
+    box-shadow: 13px 13px 13px 2px rgba(66, 68, 90, 1);
+  }
+  
+  .window-top {
+    background-color: #2f2f30;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .window-top span {
+    margin-left: auto;
+    user-select: none;
+  }
+  
+  .window-console {
+    margin: 0px 10px;
+    overflow-y: scroll;
+    word-wrap: break-word;
+  }
+  
+  .window-console p {
+    font-size: 10px;
+  }
+  
+  .window-input {
+    border-top: 1px solid #cbccc6;
+    min-height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .window-input input {
+    width: 75%;
+    background-color: #1b1c1b;
+    border: none;
+    color: #fdfdfd;
+  }
+  
+  .window-input input::placeholder {
+    color: #fdfdfd;
+  }
+  
+  .window-input input:focus {
+    outline: none;
+    border: none;
+  }
+  
+  .window-input button {
+    width: 20%;
+    height: 30px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .window-input select {
+    background-color: #1b1c1b;
+    border: none;
+    border-left: 1px solid #cbccc6;
+    color: #fdfdfd;
+    cursor: pointer;
+  }
+  
+  .typerio {
+    color: #fdfdfd;
+  }
+  
+  .typerio.red {
+    color: #cd5c5c;
+  }
+  
+  .typerio.green {
+    color: #86af80;
+  }
+  
+  .typerio.blue {
+    color: #6495ed;
+  }
+  
+  .typerio.white {
+    color: #fdfdfd;
+  }
+
+  a {
+    color: #6495ed;
+    text-decoration: none;
+  }
+  
