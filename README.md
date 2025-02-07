@@ -1,5 +1,3 @@
-![Logo](ISTP.png)
-
 ### What is a tool ISTP?
 ```
 It is an abbreviation of the word (Speed Test Ping).
@@ -68,8 +66,7 @@ $ python3 Android.py
 $ python3 server.py
 ```
 ### ScreenShot
-![Logo](istp.png)
-![Logo](Android_Termux.png)
+![Logo](image.png)
 
 ### work on systems
 
