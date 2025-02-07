@@ -1,0 +1,7 @@
+speedtest-cli
+termcolor
+requests
+colorama
+tqdm
+prettytable
+datetime
