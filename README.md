@@ -58,6 +58,22 @@ $ sudo ./install.sh
 $ pip3 install -r requirements.txt
 $ python3 istp.py
 ```
+---
+
+### uninstall ISTP by PowerShell for Windows & Linux
+
+### Windows
+```
+$ Set-ExecutionPolicy RemoteSigned && .\uninstall.ps1
+```
+
+### Linux 
+```
+$ sudo apt-get install -y powershell && chmod +x uninstall.ps1 && pwsh ./uninstall.ps1
+```
+
+---
+
 ### Installation system Android in Applications 'Termux'
 
 ```
