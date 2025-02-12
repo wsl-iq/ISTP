@@ -39,8 +39,16 @@ In addition to improvements in the banner.
 (ISP) , (Country) , (URL) ,  (Hosted By) ,  (Packet Loss) ,  (Server ID) ,  (ISP Rating).
 * Add a clock and calendar to know when and at what time you checked your Internet.
 ```
+### Installation system ًWindows
+```
+1- Download File ZIP
+2- unzip file ISTP
+$ cd ISTP
+$ install.bat
+$ python istp.py
+```
 
-### Installation system , Windows, Linux, MacBook
+### Installation system Linux
 
 ```
 $ git clone https://github.com/wsl-iq/ISTP.git
