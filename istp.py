@@ -49,7 +49,7 @@ def Banner():
      {G}/  |  \     {B}|   |\_____  \  |    |   |     ___/{W}            
     {G}/\/\|/\/\    {B}|   |/        \ |    |   |    |{W}                
    {G}/    |    \   {B}|___|_______  / |____|   |____| {Y}Version : 6{W}
-  -     -     -        {B}      \/{W}                  {Y}My INSTAGRAM {W}: {M}r94xs{W}          
+  -     -     -        {B}      \/{W}                  {Y}My INSTAGRAM {W}: {M}wsl.iq{W}          
  {Back.RED}{W} [Internet Speed Test Ping] {S}{W}""")
 
 def clear_screen():
